@@ -51,6 +51,9 @@ print(result)"""
 
 # Divmod Operator
 
-a, b = divmod(15,2)
+"""a, b = divmod(15,2)
 print (a)
-print (b)
+print (b)"""
+
+#Ternary Operator
+
