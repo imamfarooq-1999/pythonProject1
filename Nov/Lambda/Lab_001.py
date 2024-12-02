@@ -3,6 +3,7 @@ def function_name ():
     print("hello world")
 
 function_name()"""
+from idlelib.run import MyHandler
 from wsgiref.util import request_uri
 
 """
@@ -92,5 +93,13 @@ import math
 
 #n = int(input("enter the number\n"))
 
+"""
 result = lambda num: num % 2 ==0
-print(result(17))
+print(result(17))"""
+
+
+#------------------
+my_list=[1,2,3]
+my_list1=[1,1.25,True,"string"]
+
+print(type(my_list))
